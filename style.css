@@ -1,0 +1,73 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #339a97;
+  color: #2f198a;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  background-color: #0d88c1;
+  z-index: 1;
+}
+main {
+  position: relative;
+  padding: 15px;
+  margin-top: 60px;
+  margin-left: 10px;
+  z-index: 0;
+}
+.sidebar {
+  position: absolute;
+  right: 20px;
+  top: 100px; /* Alineado con header */
+  padding: 10px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 8px;
+  color: rgb(20, 55, 151);
+}
+li {
+  padding: 2px;
+}
+
+h2 {
+  color: palevioletred;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.features {
+  position: relative;
+  margin-top: 30vh;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  word-spacing: 5px;
+}
+button {
+  padding: 2px;
+  margin: 10px;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 250px;
+  border-top: 1px solid black;
+  padding: 20px;
+}
